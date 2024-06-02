@@ -1,4 +1,4 @@
-name: Flutter Nightly Build
+name: Calling Builder-Windows
 
 on:
   schedule:
@@ -8,7 +8,7 @@ on:
 
 jobs:
   run-flutter-nightly-build:
-    uses: ./.github/workflows/flutter-build.yml
+    uses: ./.github/workflows/Builder-Windows.yml
     secrets: inherit
     with:
       upload-artifact: true
